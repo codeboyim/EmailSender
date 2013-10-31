@@ -1,0 +1,30 @@
+﻿/*IE css fix*/
+
+* html .eml-sender .tagsinput
+{
+    zoom: 1;
+    display: inline;
+}
+
+* html .eml-sender div.wysiwyg
+{
+    zoom: 1;
+    display: inline;
+}
+
+* + html .eml-sender .tagsinput
+{
+    zoom: 1;
+    display: inline;
+}
+
+* + html .eml-sender div.wysiwyg
+{
+    zoom: 1;
+    display: inline;
+}
+
+.eml-sender-body
+{
+    width: 550px;
+}

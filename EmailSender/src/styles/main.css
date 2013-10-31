@@ -1,0 +1,104 @@
+﻿.eml-sender > * {
+    margin: 10px 0px;
+}
+
+.eml-sender ul {
+    list-style: none;
+}
+
+.eml-sender li {
+    margin: 5px;
+}
+
+.eml-sender > * > i {
+    display: inline-block;
+    width: 87px;
+    padding-right: 20px;
+    zoom: 1;
+    font-style: normal;
+}
+
+.eml-sender-title.l-top {
+    vertical-align: top;
+    margin-top: 3px;
+}
+
+.eml-sender .tagsinput {
+    display: inline-block;
+}
+
+.eml-sender-recipients {
+    width: 525px;
+}
+
+.eml-sender-subject {
+    width: 531px;
+}
+
+.eml-sender-body {
+    width: 529px;
+    height: 300px;
+}
+
+.eml-sender-attachments {
+    width: 410px;
+    margin: 0px;
+    padding: 0px;
+    border: solid 1px #ccc;
+    display: inline-block;
+    height: 100px;
+}
+
+    .eml-sender-attachments > * {
+        background-repeat: no-repeat;
+        padding-left: 23px;
+        line-height: 18px;
+    }
+
+.eml-sender-attname {
+    vertical-align: middle;
+    max-width: 330px;
+    overflow: hidden;
+    display: inline-block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.eml-sender-attdel {
+    vertical-align: middle;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.eml-sender .wysiwyg {
+    display: inline-block;
+}
+
+.eml-sender .uploadify {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 10px;
+}
+
+.eml-sender .uploadify-queue {
+    position: absolute;
+    width: 360px;
+    top: 50%;
+    left: 50%;
+    margin-left: -180px;
+    margin-top: -100px;
+}
+
+.eml-sender .required-field {
+    background: url("mandatory.gif") no-repeat 680px 10px;
+}
+
+.eml-sender-spell-check {
+    cursor: pointer;
+    vertical-align: bottom;
+    margin-left: 5px;
+}
+
+.wysiwyg + .eml-sender-spell-check {
+    margin-bottom: 4px;
+}
